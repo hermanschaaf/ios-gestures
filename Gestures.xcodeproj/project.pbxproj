@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEC656C7187C32F500B7BAB9 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC656C7187C32F500B7BAB9 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC656CA187C32F500B7BAB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEC656CC187C32F500B7BAB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CEC656CE187C32F500B7BAB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CEC656D2187C32F500B7BAB9 /* Flashcards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flashcards-Info.plist"; sourceTree = "<group>"; };
+		CEC656D2187C32F500B7BAB9 /* Gestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gestures-Info.plist"; sourceTree = "<group>"; };
 		CEC656D4187C32F500B7BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEC656D6187C32F500B7BAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEC656D8187C32F500B7BAB9 /* Flashcards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flashcards-Prefix.pch"; sourceTree = "<group>"; };
+		CEC656D8187C32F500B7BAB9 /* Gestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gestures-Prefix.pch"; sourceTree = "<group>"; };
 		CEC656D9187C32F500B7BAB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEC656DA187C32F500B7BAB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEC656DD187C32F500B7BAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -50,11 +50,12 @@
 		CEC656E2187C32F500B7BAB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEC656E3187C32F500B7BAB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEC656E5187C32F500B7BAB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CEC656EB187C32F500B7BAB9 /* FlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC656EB187C32F500B7BAB9 /* GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC656EC187C32F500B7BAB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CEC656F4187C32F500B7BAB9 /* FlashcardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashcardsTests-Info.plist"; sourceTree = "<group>"; };
+		CEC656F4187C32F500B7BAB9 /* GesturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GesturesTests-Info.plist"; sourceTree = "<group>"; };
 		CEC656F6187C32F500B7BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEC656F8187C32F500B7BAB9 /* FlashcardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashcardsTests.m; sourceTree = "<group>"; };
+		CEC65703187C3A5600B7BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +85,8 @@
 		CEC656BE187C32F500B7BAB9 = {
 			isa = PBXGroup;
 			children = (
-				CEC656D0187C32F500B7BAB9 /* Flashcards */,
-				CEC656F2187C32F500B7BAB9 /* FlashcardsTests */,
+				CEC656D0187C32F500B7BAB9 /* Gestures */,
+				CEC656F2187C32F500B7BAB9 /* GesturesTests */,
 				CEC656C9187C32F500B7BAB9 /* Frameworks */,
 				CEC656C8187C32F500B7BAB9 /* Products */,
 			);
@@ -94,8 +95,8 @@
 		CEC656C8187C32F500B7BAB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEC656C7187C32F500B7BAB9 /* Flashcards.app */,
-				CEC656EB187C32F500B7BAB9 /* FlashcardsTests.xctest */,
+				CEC656C7187C32F500B7BAB9 /* Gestures.app */,
+				CEC656EB187C32F500B7BAB9 /* GesturesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +112,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEC656D0187C32F500B7BAB9 /* Flashcards */ = {
+		CEC656D0187C32F500B7BAB9 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
 				CEC656D9187C32F500B7BAB9 /* AppDelegate.h */,
@@ -123,33 +124,35 @@
 				CEC656E5187C32F500B7BAB9 /* Images.xcassets */,
 				CEC656D1187C32F500B7BAB9 /* Supporting Files */,
 			);
+			name = Gestures;
 			path = Flashcards;
 			sourceTree = "<group>";
 		};
 		CEC656D1187C32F500B7BAB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CEC656D2187C32F500B7BAB9 /* Flashcards-Info.plist */,
+				CEC656D2187C32F500B7BAB9 /* Gestures-Info.plist */,
 				CEC656D3187C32F500B7BAB9 /* InfoPlist.strings */,
 				CEC656D6187C32F500B7BAB9 /* main.m */,
-				CEC656D8187C32F500B7BAB9 /* Flashcards-Prefix.pch */,
+				CEC656D8187C32F500B7BAB9 /* Gestures-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CEC656F2187C32F500B7BAB9 /* FlashcardsTests */ = {
+		CEC656F2187C32F500B7BAB9 /* GesturesTests */ = {
 			isa = PBXGroup;
 			children = (
 				CEC656F8187C32F500B7BAB9 /* FlashcardsTests.m */,
 				CEC656F3187C32F500B7BAB9 /* Supporting Files */,
 			);
+			name = GesturesTests;
 			path = FlashcardsTests;
 			sourceTree = "<group>";
 		};
 		CEC656F3187C32F500B7BAB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CEC656F4187C32F500B7BAB9 /* FlashcardsTests-Info.plist */,
+				CEC656F4187C32F500B7BAB9 /* GesturesTests-Info.plist */,
 				CEC656F5187C32F500B7BAB9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -158,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEC656C6187C32F500B7BAB9 /* Flashcards */ = {
+		CEC656C6187C32F500B7BAB9 /* Gestures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEC656FC187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "Flashcards" */;
+			buildConfigurationList = CEC656FC187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "Gestures" */;
 			buildPhases = (
 				CEC656C3187C32F500B7BAB9 /* Sources */,
 				CEC656C4187C32F500B7BAB9 /* Frameworks */,
@@ -170,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = Flashcards;
+			name = Gestures;
 			productName = Flashcards;
-			productReference = CEC656C7187C32F500B7BAB9 /* Flashcards.app */;
+			productReference = CEC656C7187C32F500B7BAB9 /* Gestures.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEC656EA187C32F500B7BAB9 /* FlashcardsTests */ = {
+		CEC656EA187C32F500B7BAB9 /* GesturesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEC656FF187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */;
+			buildConfigurationList = CEC656FF187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "GesturesTests" */;
 			buildPhases = (
 				CEC656E7187C32F500B7BAB9 /* Sources */,
 				CEC656E8187C32F500B7BAB9 /* Frameworks */,
@@ -188,9 +191,9 @@
 			dependencies = (
 				CEC656F1187C32F500B7BAB9 /* PBXTargetDependency */,
 			);
-			name = FlashcardsTests;
+			name = GesturesTests;
 			productName = FlashcardsTests;
-			productReference = CEC656EB187C32F500B7BAB9 /* FlashcardsTests.xctest */;
+			productReference = CEC656EB187C32F500B7BAB9 /* GesturesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEC656C2187C32F500B7BAB9 /* Build configuration list for PBXProject "Flashcards" */;
+			buildConfigurationList = CEC656C2187C32F500B7BAB9 /* Build configuration list for PBXProject "Gestures" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEC656C6187C32F500B7BAB9 /* Flashcards */,
-				CEC656EA187C32F500B7BAB9 /* FlashcardsTests */,
+				CEC656C6187C32F500B7BAB9 /* Gestures */,
+				CEC656EA187C32F500B7BAB9 /* GesturesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		CEC656F1187C32F500B7BAB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEC656C6187C32F500B7BAB9 /* Flashcards */;
+			target = CEC656C6187C32F500B7BAB9 /* Gestures */;
 			targetProxy = CEC656F0187C32F500B7BAB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -290,6 +293,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC656DD187C32F500B7BAB9 /* Base */,
+				CEC65703187C3A5600B7BAB9 /* en */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -393,9 +397,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Flashcards/Flashcards-Prefix.pch";
-				INFOPLIST_FILE = "Flashcards/Flashcards-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Flashcards/Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Flashcards/Gestures-Info.plist";
+				PRODUCT_NAME = Gestures;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,9 +410,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Flashcards/Flashcards-Prefix.pch";
-				INFOPLIST_FILE = "Flashcards/Flashcards-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Flashcards/Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Flashcards/Gestures-Info.plist";
+				PRODUCT_NAME = Gestures;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,8 +433,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FlashcardsTests/FlashcardsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FlashcardsTests/GesturesTests-Info.plist";
+				PRODUCT_NAME = GesturesTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,8 +452,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flashcards/Flashcards-Prefix.pch";
-				INFOPLIST_FILE = "FlashcardsTests/FlashcardsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FlashcardsTests/GesturesTests-Info.plist";
+				PRODUCT_NAME = GesturesTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -458,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEC656C2187C32F500B7BAB9 /* Build configuration list for PBXProject "Flashcards" */ = {
+		CEC656C2187C32F500B7BAB9 /* Build configuration list for PBXProject "Gestures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEC656FA187C32F500B7BAB9 /* Debug */,
@@ -467,21 +471,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEC656FC187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "Flashcards" */ = {
+		CEC656FC187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "Gestures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEC656FD187C32F500B7BAB9 /* Debug */,
 				CEC656FE187C32F500B7BAB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		CEC656FF187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */ = {
+		CEC656FF187C32F500B7BAB9 /* Build configuration list for PBXNativeTarget "GesturesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEC65700187C32F500B7BAB9 /* Debug */,
 				CEC65701187C32F500B7BAB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

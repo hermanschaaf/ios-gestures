@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEC656C6187C32F500B7BAB9"
                BuildableName = "Flashcards.app"
-               BlueprintName = "Flashcards"
-               ReferencedContainer = "container:Flashcards.xcodeproj">
+               BlueprintName = "Gestures"
+               ReferencedContainer = "container:Gestures.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEC656EA187C32F500B7BAB9"
                BuildableName = "FlashcardsTests.xctest"
-               BlueprintName = "FlashcardsTests"
-               ReferencedContainer = "container:Flashcards.xcodeproj">
+               BlueprintName = "GesturesTests"
+               ReferencedContainer = "container:Gestures.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEC656C6187C32F500B7BAB9"
             BuildableName = "Flashcards.app"
-            BlueprintName = "Flashcards"
-            ReferencedContainer = "container:Flashcards.xcodeproj">
+            BlueprintName = "Gestures"
+            ReferencedContainer = "container:Gestures.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEC656C6187C32F500B7BAB9"
             BuildableName = "Flashcards.app"
-            BlueprintName = "Flashcards"
-            ReferencedContainer = "container:Flashcards.xcodeproj">
+            BlueprintName = "Gestures"
+            ReferencedContainer = "container:Gestures.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEC656C6187C32F500B7BAB9"
             BuildableName = "Flashcards.app"
-            BlueprintName = "Flashcards"
-            ReferencedContainer = "container:Flashcards.xcodeproj">
+            BlueprintName = "Gestures"
+            ReferencedContainer = "container:Gestures.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

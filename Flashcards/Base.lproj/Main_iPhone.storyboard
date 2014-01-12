@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fZu-G3-bid"/>
+                        <viewControllerLayoutGuide type="bottom" id="hqm-ps-oOe"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello there!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUE-Dc-gN1">
+                                <rect key="frame" x="116" y="273" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
+                    <connections>
+                        <outlet property="swipeDownRecognizer" destination="0rb-0y-fkZ" id="ykt-jC-j0U"/>
+                        <outlet property="swipeLeftRecognizer" destination="4Xt-Xu-A0b" id="EbI-z8-kYO"/>
+                        <outlet property="swipeRightRecognizer" destination="WFH-sR-GR5" id="iwl-3N-bFg"/>
+                        <outlet property="swipeUpRecognizer" destination="zKE-hL-XUb" id="XRy-Ib-NXx"/>
+                        <outlet property="textView" destination="DUE-Dc-gN1" id="oh2-HK-H5B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="4Xt-Xu-A0b" userLabel="Left Swipe Gesture">
+                    <connections>
+                        <action selector="showGestureForSwipeRecognizer:" destination="vXZ-lx-hvc" id="xzG-bk-dfR"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="WFH-sR-GR5" userLabel="Right Swipe Gesture">
+                    <connections>
+                        <action selector="showGestureForSwipeRecognizer:" destination="vXZ-lx-hvc" id="2NS-fM-6uy"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="zKE-hL-XUb" userLabel="Up Swipe Gesture">
+                    <connections>
+                        <action selector="showGestureForSwipeRecognizer:" destination="vXZ-lx-hvc" id="OFq-V4-mhZ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="0rb-0y-fkZ" userLabel="Down Swipe Gesture">
+                    <connections>
+                        <action selector="showGestureForSwipeRecognizer:" destination="vXZ-lx-hvc" id="E52-IT-Lr9"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="35" y="1"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
