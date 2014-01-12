@@ -20,8 +20,6 @@
 		CEC656ED187C32F500B7BAB9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC656EC187C32F500B7BAB9 /* XCTest.framework */; };
 		CEC656EE187C32F500B7BAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC656CA187C32F500B7BAB9 /* Foundation.framework */; };
 		CEC656EF187C32F500B7BAB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC656CE187C32F500B7BAB9 /* UIKit.framework */; };
-		CEC656F7187C32F500B7BAB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC656F5187C32F500B7BAB9 /* InfoPlist.strings */; };
-		CEC656F9187C32F500B7BAB9 /* FlashcardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC656F8187C32F500B7BAB9 /* FlashcardsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +50,6 @@
 		CEC656E5187C32F500B7BAB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEC656EB187C32F500B7BAB9 /* GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC656EC187C32F500B7BAB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CEC656F4187C32F500B7BAB9 /* GesturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GesturesTests-Info.plist"; sourceTree = "<group>"; };
-		CEC656F6187C32F500B7BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CEC656F8187C32F500B7BAB9 /* FlashcardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashcardsTests.m; sourceTree = "<group>"; };
 		CEC65703187C3A5600B7BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,8 +80,7 @@
 		CEC656BE187C32F500B7BAB9 = {
 			isa = PBXGroup;
 			children = (
-				CEC656D0187C32F500B7BAB9 /* Gestures */,
-				CEC656F2187C32F500B7BAB9 /* GesturesTests */,
+				CEC656D0187C32F500B7BAB9 /* Flashcards */,
 				CEC656C9187C32F500B7BAB9 /* Frameworks */,
 				CEC656C8187C32F500B7BAB9 /* Products */,
 			);
@@ -112,7 +106,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEC656D0187C32F500B7BAB9 /* Gestures */ = {
+		CEC656D0187C32F500B7BAB9 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
 				CEC656D9187C32F500B7BAB9 /* AppDelegate.h */,
@@ -124,7 +118,6 @@
 				CEC656E5187C32F500B7BAB9 /* Images.xcassets */,
 				CEC656D1187C32F500B7BAB9 /* Supporting Files */,
 			);
-			name = Gestures;
 			path = Flashcards;
 			sourceTree = "<group>";
 		};
@@ -135,25 +128,6 @@
 				CEC656D3187C32F500B7BAB9 /* InfoPlist.strings */,
 				CEC656D6187C32F500B7BAB9 /* main.m */,
 				CEC656D8187C32F500B7BAB9 /* Gestures-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CEC656F2187C32F500B7BAB9 /* GesturesTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEC656F8187C32F500B7BAB9 /* FlashcardsTests.m */,
-				CEC656F3187C32F500B7BAB9 /* Supporting Files */,
-			);
-			name = GesturesTests;
-			path = FlashcardsTests;
-			sourceTree = "<group>";
-		};
-		CEC656F3187C32F500B7BAB9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEC656F4187C32F500B7BAB9 /* GesturesTests-Info.plist */,
-				CEC656F5187C32F500B7BAB9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC656F7187C32F500B7BAB9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC656F9187C32F500B7BAB9 /* FlashcardsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +276,6 @@
 				CEC656E0187C32F500B7BAB9 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		CEC656F5187C32F500B7BAB9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC656F6187C32F500B7BAB9 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
